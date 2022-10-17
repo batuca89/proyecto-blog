@@ -1,0 +1,30 @@
+.col
+{
+    backdrop-filter: blur(1rem);
+    box-shadow: 1.3rem rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 2%;
+    object-fit: cover;
+}
+
+body{
+    background: #080b43;
+    /* background:linear-gradient(to right,#d2d510,#cc7108) */
+    background:linear-gradient(to right,#276fbb,#040629)
+    
+}
+.bg{
+    background-image: url(/assets/paisaje2.jpg);    
+    background-position: center center;
+}
+
+
+@media (max-width: 992px) {
+.bg {
+    display: none;
+    }
+
+.container{
+    background-image: url(/assets/paisaje2.jpg);    
+    }
+ }
