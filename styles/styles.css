@@ -3,7 +3,7 @@
     backdrop-filter: blur(1rem);
     box-shadow: 1.3rem rgba(0, 0, 0, 0.5);
     background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 2%;
+    /* border-radius: 0%  2% 2% 0%; */
     object-fit: cover;
 }
 
@@ -16,6 +16,7 @@ body{
 .bg{
     background-image: url(/assets/paisaje2.jpg);    
     background-position: center center;
+    /* border-radius: 2%; */
 }
 
 
@@ -26,5 +27,12 @@ body{
 
 .container{
     background-image: url(/assets/paisaje2.jpg);    
+    background-position: center center;
+    border-radius: 2% ;
+    
     }
+    .col
+{
+    /* border-radius: 2% ; */
+}
  }
